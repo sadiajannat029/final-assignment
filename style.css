@@ -1,0 +1,376 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+}  
+
+.secondary_bg {  
+    background-color: #fff8f3;  
+}  
+
+.container {  
+    background-image: url('images/developer.png'), url('images/header_bg.png');  
+    background-position: left top, right bottom;  
+    background-repeat: no-repeat;  
+}  
+
+/* Navbar Styles */  
+.navbar {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    margin: 0 150px;  
+}  
+
+.navbar_link {  
+    display: flex;  
+    list-style-type: none;  
+}  
+
+.navbar_link li {  
+    margin-right: 20px;  
+}  
+
+.navbar_link li a {  
+    text-decoration: none;  
+    font-size: 20px;  
+    font-weight: 400;  
+    color: black;  
+}  
+
+.navbar_link li a:hover {  
+    
+    color: rgb(54, 54, 54);  
+}
+
+.primary-btn {  
+    padding: 7px 15px;  
+    background-color: #FD6E0A;  
+    border: none;  
+    color: white;  
+    border-radius: 5px;  
+    font-size: 20px;  
+    font-weight: 400;  
+    cursor: pointer;
+}  
+
+.primary-btn:hover {
+    background-color: #e66000;
+}
+
+.navbar-title {  
+    font-size: 30px;  
+    color: black;  
+    font-weight: 800;  
+}  
+
+#sub-title {  
+    color: #FD6E0A;  
+}  
+
+/* Banner Styles */  
+.banner {  
+    display: flex;  
+    margin: 0px 35px 0px 200px;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.banner-content {  
+    max-width: 500px;  
+}  
+
+#name {  
+    font-size: 40px;  
+    font-weight: 800;  
+}  
+
+.primary-btn1 {  
+    padding: 7px 15px;  
+    background-color: #ffffff;  
+    border: 2px solid #FD6E0A;  
+    color: #FD6E0A;  
+    border-radius: 5px;  
+    font-size: 20px;  
+    font-weight: 400;  
+    margin-left: 10px; 
+    cursor: pointer; 
+}  
+
+.primary-btn1:hover {
+    background-color: #eadcd5;
+}
+
+/* About Me Section */  
+.about-me {  
+    background-color: #fff8f3;  
+    padding: 30px;  
+    border-radius: 8px;  
+    max-width: 1000px;  
+    margin: 100px auto;  
+    text-align: center;  
+}  
+
+.about-me h2 {  
+    font-weight: bold;  
+    margin-bottom: 20px;  
+}  
+
+.about-me p {  
+    color: rgb(103, 103, 103);
+    text-align: center;  
+    margin: 20px 0;  
+    padding: 0 20px;  
+    
+}  
+
+ 
+.details {  
+    display: flex;  
+    justify-content: space-between;  
+    flex-wrap: wrap;  
+    margin: 10px 0;  
+}  
+
+.detail-item {  
+    flex: 1;  
+      color: rgb(110, 113, 113);
+    text-align: center;  
+    padding: 10px;  
+}  
+
+.detail-item span {  
+    display: block;  
+}  
+
+.detail-value {  
+    font-weight: bold; 
+    color: black; 
+}  
+
+.details .detail-item {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.about-contain {  
+    padding: 50px;  
+}
+/* skill section */
+.skills {  
+    background-color: white;  
+    padding: 0px 200px; 
+    text-align: center; 
+    margin: 100px auto ; 
+    border-radius: 8px; 
+}  
+
+.skills h2 {  
+    font-weight: bold;  
+    margin-bottom: 10px; 
+    font-size: 40px;  
+}  
+
+.para2
+{
+    color: rgb(103, 103, 103); 
+    margin-bottom: 20px; 
+    padding: 0px 150px;
+    font-size: 20px;
+}
+
+
+
+.skills-container {  
+    display: flex;  
+    margin: 50px 200px;
+    gap: 30px; 
+    justify-content: center;  
+    
+}  
+
+.skill-item {
+      
+    background-color: #f9f7f7; 
+    border-radius: 8px; 
+    padding: 40px;
+    margin: 0px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    
+    text-align: left; 
+}  
+.skill-item h3 {  
+    font-weight: bold; 
+    margin: 0 auto; 
+    max-width: 190px;  
+    
+}  
+
+.skill-item p {  
+    max-width: 190px;  
+    font-weight: 100;   
+    margin: 0 auto;   
+    color: rgb(103, 103, 103);   
+    line-height: 1.5;  
+}  
+.skill-icon {  
+   
+    display: flex; 
+    padding: 15px 0px;
+     
+}  
+
+.skill-icon img {  
+    width: 50px;   
+    height: 50px;   
+}
+
+/*resume-summary section*/
+
+.resume-summary {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.resume-summary h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.resume-section {
+    width: 45%;
+    min-width: 300px;
+    text-align: left;
+}
+
+.resume-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #43434327;
+    
+}
+
+
+
+.resume-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resume-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.download-cv {
+    margin-top: 30px;
+}
+
+.download-cv button {
+    background: #ff6f00;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-cv button:hover {
+    background: #e65c00;
+}
+
+.download-cv button i {
+    margin-right: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff7f2;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 40%;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+}
+
+.footer-text{
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form {
+    width: 30%;
+    background-color: #fff7f2;
+    margin-right: 150px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.form textarea {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.footer-button {
+    background-color: #ff7300;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-button:hover {
+    background-color: #e66000;
+}
